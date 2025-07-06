@@ -36,7 +36,7 @@ Editar
 
 ### 🚀 Como usar
 
-#### 1. Crie um arquivo chamado `processar_txt.py` com o seguinte conteúdo:
+1. **Crie um arquivo chamado `processar_txt.py` com o seguinte conteúdo:**
 
 ```python
 import sqlite3
@@ -97,7 +97,8 @@ with open(TXT_PATH, 'r', encoding='utf-8') as file:
 conn.commit()
 conn.close()
 print('✅ Processamento finalizado com sucesso!')
-2. Coloque seu .txt no mesmo diretório
+Coloque seu arquivo .txt no mesmo diretório.
+
 Exemplo:
 
 Copiar
@@ -105,7 +106,8 @@ Editar
 txt2sqlite/
 ├── processar_txt.py
 ├── dados.txt
-3. Execute o script:
+Execute o script no terminal:
+
 bash
 Copiar
 Editar
@@ -142,65 +144,4 @@ Editar
 
 ---
 
-Se quiser que eu gere esse arquivo `.md` e envie como download, é só pedir!
-
-
-
-
-
-
-
-
-Perguntar ao ChatGPT
-Você disse:
-vc sepera o ### 📁 Exemplo de entrada (.txt)
-
-cpf|nome_completo|sexo|data_nascimento|nome_mae|nome_pai|rg
-12345678900|João Silva|M|01/01/2000|Maria Silva|José Silva|MG123456
-98765432100|Ana Souza|F|15/03/1995|Clara Souza|Carlos Souza|SP987654
-
-
-O ChatGPT disse:
-Claro, Davi! Aqui está separado certinho como pediu:
-
-📁 Exemplo de entrada (.txt)
-swift
-Copiar
-Editar
-cpf|nome_completo|sexo|data_nascimento|nome_mae|nome_pai|rg
-12345678900|João Silva|M|01/01/2000|Maria Silva|José Silva|MG123456
-98765432100|Ana Souza|F|15/03/1995|Clara Souza|Carlos Souza|SP987654
-Se quiser que eu ajuste mais alguma coisa é só avisar!
-
-
-
-
-
-
-
-
-Você disse:
-faca sem seprar isso do readme
-
-
-O ChatGPT disse:
-Claro! Aqui está o trecho do README com o exemplo de entrada .txt no formato que você pediu, tudo junto, sem separação — exatamente como ficaria no README.md:
-
-markdown
-Copiar
-Editar
-### 📁 Exemplo de entrada (`.txt`)
-
-cpf|nome_completo|sexo|data_nascimento|nome_mae|nome_pai|rg  
-12345678900|João Silva|M|01/01/2000|Maria Silva|José Silva|MG123456  
-98765432100|Ana Souza|F|15/03/1995|Clara Souza|Carlos Souza|SP987654
-Se quiser, posso já te montar o README inteiro com esse formato!
-
-
-
-
-
-
-
-
-
+Assim os passos ficam claros, os códigos e exemplos em blocos próprios, e o README fácil de 
