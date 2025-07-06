@@ -28,10 +28,6 @@ cpf|nome_completo|sexo|data_nascimento|nome_mae|nome_pai|rg
 12345678900|João Silva|M|01/01/2000|Maria Silva|José Silva|MG123456
 98765432100|Ana Souza|F|15/03/1995|Clara Souza|Carlos Souza|SP987654
 
-python
-Copiar
-Editar
-
 ---
 
 ### 🚀 Como usar
@@ -41,23 +37,17 @@ Editar
 
 ### Exemplo:
 
-Copiar
-Editar
-txt2sqlite/
-├── processar_txt.py
+├── script.py
 ├── dados.txt
 ### 2 Execute o script no terminal:
 
 python3 script.py
 
-
+---
 ### 🎯 Resultado
 Será gerado um arquivo chamado dados_convertidos.db com a tabela pessoas, contendo todos os dados do .txt.
 
 📜 Estrutura da tabela criada
-sql
-Copiar
-Editar
 CREATE TABLE pessoas (
     cpf TEXT,
     nome_completo TEXT,
@@ -67,20 +57,13 @@ CREATE TABLE pessoas (
     nome_pai TEXT,
     rg TEXT
 );
+---
 ### ⚠️ Aviso importante
 Este projeto não contém nem distribui dados pessoais. É uma ferramenta genérica de importação de dados em massa para .db, com fins educacionais ou técnicos.
-
+---
 ### 👨‍💻 Autor
 Davi Sakai
 Desenvolvedor fullstack com foco em automação, bots, scraping e manipulação de grandes volumes de dados.
 
-🪪 Licença
-MIT License
 
-yaml
-Copiar
-Editar
 
----
-
-Assim os passos ficam claros, os códigos e exemplos em blocos próprios, e o README fácil de 
