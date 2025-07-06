@@ -3,8 +3,8 @@ import os
 
 # Configurações
 TXT_PATH = '/media/pointsec/databases/SerasaPF.txt'
-DB_PATH = './novo_serasa.db'
-TABLE_NAME = 'serasa'
+DB_PATH = 'sua_db'
+TABLE_NAME = 'db'
 SEPARADOR = '|'
 
 # Criar conexão com SQLite
