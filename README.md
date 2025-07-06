@@ -39,6 +39,7 @@ cpf|nome_completo|sexo|data_nascimento|nome_mae|nome_pai|rg
 
 ├── script.py
 ├── dados.txt
+---
 ### 2 Execute o script no terminal:
 
 python3 script.py
