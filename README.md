@@ -41,9 +41,9 @@ cpf|nome_completo|sexo|data_nascimento|nome_mae|nome_pai|rg
 ├── dados.txt
 ---
 ### 2 Execute o script no terminal:
-
+  ```bash  
 python3 script.py
-
+  ```
 ---
 ### 🎯 Resultado
 Será gerado um arquivo chamado dados_convertidos.db com a tabela pessoas, contendo todos os dados do .txt.
