@@ -23,10 +23,11 @@ Script robusto e direto ao ponto, criado para transformar arquivos `.txt` gigant
 ---
 
 ### 📁 Exemplo de entrada (`.txt`)
-
+  ```bash
 cpf|nome_completo|sexo|data_nascimento|nome_mae|nome_pai|rg
 12345678900|João Silva|M|01/01/2000|Maria Silva|José Silva|MG123456
 98765432100|Ana Souza|F|15/03/1995|Clara Souza|Carlos Souza|SP987654
+  ```
 
 ---
 
