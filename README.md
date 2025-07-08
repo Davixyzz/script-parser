@@ -49,6 +49,8 @@ python3 script.py
 Será gerado um arquivo chamado dados_convertidos.db com a tabela pessoas, contendo todos os dados do .txt.
 
 📜 Estrutura da tabela criada
+  ```bash
+
 CREATE TABLE pessoas (
     cpf TEXT,
     nome_completo TEXT,
@@ -58,6 +60,7 @@ CREATE TABLE pessoas (
     nome_pai TEXT,
     rg TEXT
 );
+  ```
 ---
 ### ⚠️ Aviso importante
 Este projeto não contém nem distribui dados pessoais. É uma ferramenta genérica de importação de dados em massa para .db, com fins educacionais ou técnicos.
